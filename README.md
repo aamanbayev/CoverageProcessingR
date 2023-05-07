@@ -5,9 +5,13 @@ List of all packages can be found here: https://cran.r-project.org/web/packages/
 In order to start following the manual in order to learn about WCS and WCPS queries data processing in R, download the library with all the dependencies, as follows:
 
 install.packages("devtools")
+
 install.packages("remotes")
+
 library(devtools)
+
 remotes::install_github("aamanbayev/CoverageProcessingR", dependencies = TRUE)
+
 library(CoverageProcessingR)
 
 Please, enjoy the Jupyter Notebook with all the important information on implementation of WCS and WCPS queries in R for further processing using this language. 
